@@ -14,13 +14,13 @@
 		E1A618A618C5579100BC204C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A618A518C5579100BC204C /* main.m */; };
 		E1A618AA18C5579100BC204C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A618A918C5579100BC204C /* AppDelegate.m */; };
 		E1A618AD18C5579100BC204C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A618AB18C5579100BC204C /* Main.storyboard */; };
-		E1A618B018C5579100BC204C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A618AF18C5579100BC204C /* ViewController.m */; };
 		E1A618B218C5579100BC204C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A618B118C5579100BC204C /* Images.xcassets */; };
 		E1A618B918C5579100BC204C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A618B818C5579100BC204C /* XCTest.framework */; };
 		E1A618BA18C5579100BC204C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A6189918C5579100BC204C /* Foundation.framework */; };
 		E1A618BB18C5579100BC204C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A6189D18C5579100BC204C /* UIKit.framework */; };
 		E1A618C318C5579100BC204C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1A618C118C5579100BC204C /* InfoPlist.strings */; };
 		E1A618C518C5579100BC204C /* SwipeableRatingPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A618C418C5579100BC204C /* SwipeableRatingPrototypeTests.m */; };
+		E1A618D118C5586F00BC204C /* SwipeableRatingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A618D018C5586F00BC204C /* SwipeableRatingCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		E1A618A818C5579100BC204C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1A618A918C5579100BC204C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E1A618AC18C5579100BC204C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1A618AE18C5579100BC204C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E1A618AF18C5579100BC204C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E1A618B118C5579100BC204C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E1A618B718C5579100BC204C /* SwipeableRatingPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeableRatingPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A618B818C5579100BC204C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E1A618C018C5579100BC204C /* SwipeableRatingPrototypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeableRatingPrototypeTests-Info.plist"; sourceTree = "<group>"; };
 		E1A618C218C5579100BC204C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1A618C418C5579100BC204C /* SwipeableRatingPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeableRatingPrototypeTests.m; sourceTree = "<group>"; };
+		E1A618CF18C5586F00BC204C /* SwipeableRatingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableRatingCell.h; sourceTree = "<group>"; };
+		E1A618D018C5586F00BC204C /* SwipeableRatingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableRatingCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				E1A618A818C5579100BC204C /* AppDelegate.h */,
 				E1A618A918C5579100BC204C /* AppDelegate.m */,
 				E1A618AB18C5579100BC204C /* Main.storyboard */,
-				E1A618AE18C5579100BC204C /* ViewController.h */,
-				E1A618AF18C5579100BC204C /* ViewController.m */,
+				E1A618CF18C5586F00BC204C /* SwipeableRatingCell.h */,
+				E1A618D018C5586F00BC204C /* SwipeableRatingCell.m */,
 				E1A618B118C5579100BC204C /* Images.xcassets */,
 				E1A618A018C5579100BC204C /* Supporting Files */,
 			);
@@ -249,9 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A618B018C5579100BC204C /* ViewController.m in Sources */,
 				E1A618AA18C5579100BC204C /* AppDelegate.m in Sources */,
 				E1A618A618C5579100BC204C /* main.m in Sources */,
+				E1A618D118C5586F00BC204C /* SwipeableRatingCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
